@@ -19,7 +19,8 @@ public class Main {
             case "thirdChild":
                 return new thirdChild("Niko", 1.72);
             default:
-                throw new IllegalArgumentException("Unknown class name: " + className);
+                System.out.println("Unknown class name: " + className);
         }
+        return null;
     }
 }
